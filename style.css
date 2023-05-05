@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+
+}
+.container{
+    width:1512px;
+    background-color: rgb(217,217,217);
+}
+#sort-buttons{
+    display: flex;
+    justify-content: space-between;
+      margin-top:28px;
+}
+.rootcontainer{
+    margin-left: 29px;
+    margin-right:31px;
+    margin-top:28px;
+}
+#sort-buttons > button{
+    width:217px;
+    height: 66px;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+.heading{
+    height: 76px;
+    font-size: 24px;
+    background-color: black;
+   
+}
+
+.heading-1{
+    color:white;
+  padding-top:23px;
+  padding-left:21px;
+ 
+}
+#search >  input{
+    width:1182px;
+   border:1px solid  black;
+   font-size: 24px;
+   padding: 18px 21px;
+   background-color: rgb(217,217,217);
+}
+#search > button{
+ margin-left:13px;
+    height:65px;   
+    width:206px;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+
+}
+#students-table{
+    margin-top:28px;
+   
+}
+table{
+    width:100%;
+}
+table,td{
+ 
+    border: 1px solid black;
+    border-collapse: collapse;
+   font-size: 24px;
+   padding:18px 25px;
+}
+td{
+    text-align: left;
+}
